@@ -1,0 +1,49 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.pagination button {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    margin: 0 5px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.pagination button:hover {
+    background-color: #f0f0f0;
+}
+
+.pagination button.active {
+    background-color: #ddd;
+    border-color: #ddd;
+}
+
+.news-overview h2 {
+    margin: 10px;
+}
+
+.news-overview ul {
+    margin: 10px;
+    padding: 0;
+    list-style: none;
+}
+
+.news-overview ul li {
+    border: #ccc 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.news-detail {
+    padding: 10px;
+}
+
+.back-overview {
+    text-align: right;
+    margin-bottom: 10px;
+}
